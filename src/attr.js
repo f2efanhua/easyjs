@@ -507,7 +507,7 @@ E.mix( E.prototype, {
                     
                 easyAttr[ methodName ]( this, name, val );
             });
-        }
+        }1
         
         if( E.isPlainObject(name) ){
             E.each( name, function( name, val ){
